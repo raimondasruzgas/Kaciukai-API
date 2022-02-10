@@ -1,0 +1,27 @@
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.meniu {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 184, 77);
+    flex-direction: column;
+}
+.meniu img {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.meniu h1 {
+    margin-bottom: 50px;
+}
+.meniu a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}

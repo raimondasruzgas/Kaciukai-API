@@ -1,0 +1,41 @@
+.pagrindinis{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    margin-left: 400px;
+}
+.teksto_dalis{
+    margin-bottom: 30px;
+}
+.teksto_dalis h1 {
+    margin-bottom: 20px;
+}
+.ivedimo_dalis{
+    display: flex;
+    margin-bottom: 20px;
+}
+.ivedimo_dalis p {
+    background-color: rgb(241, 184, 77);
+    padding: 10px;
+}
+.ivedimo_dalis button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+.atvaizdavimas {
+    display: flex;
+    justify-content: left;
+}
+.atvaizdavimas pre {
+    background-color: rgb(241, 184, 77);
+    padding: 10px;
+    width: 450px;
+    height: 100px;
+    overflow-x: scroll;
+}
+.atvaizdavimas img {
+    margin-left: 50px;
+    width: 400px;
+}

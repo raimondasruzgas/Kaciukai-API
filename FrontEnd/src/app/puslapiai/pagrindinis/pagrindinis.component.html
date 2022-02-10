@@ -1,0 +1,23 @@
+<div class="pagrindinis">
+    <div class="teksto_dalis">
+        <h1>Kačiukų nuotraukų kolekcijos API</h1>
+        <p>
+            Katės gali gyventi nepaprastai ilgai, atsižvelgiant į jų mažą dydį. 
+            Apskritai mažesnių žinduolių gyvenimo trukmė yra trumpesnė, tačiau katės yra šiek tiek kitokios. 
+            Pavyzdžiui, nors katės yra mažesnės nei dauguma šunų, jos paprastai gyvena ilgiau. 
+            Be to, jie yra tik šiek tiek didesni už triušius, bet vėl gyvena daug ilgiau. 
+            Vidutinė naminės katės gyvenimo trukmė tikriausiai yra apie 13–14 metų. 
+            Tačiau, nors jų gyvenimo trukmė skiriasi, gerai prižiūrimos katės paprastai gali sulaukti 15 ar daugiau metų, 
+            kai kurios iki 18 ar 20 metų, o kai kurios nepaprastos katės net peržengia 25 ar 30 metų amžiaus.
+        </p>
+    </div>
+    <div class="ivedimo_dalis">
+        <p>{{ apiNuoroda }}</p><button (click)="gautiKaciuka()">GAUTI</button>
+    </div>
+    <div class="atvaizdavimas">
+        <div>
+            <pre>{{ gautasJSON }}</pre>
+        </div>
+        <img [src]="nuotrauka" alt="">
+    </div>
+</div>
